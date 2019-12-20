@@ -8,7 +8,7 @@ data = pd.read_csv("SkillCraft1_Dataset.csv", sep=",")
 
 print(data.head())
 
-data = data[["age", "HoursPerWeek"]]
+data = data[["Age", "HoursPerWeek"]]
 
 
 
