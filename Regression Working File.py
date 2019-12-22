@@ -23,3 +23,11 @@ linear = linear_model.LinearRegression()
 linear.fit(x_train, y_train)
 acc = linear.score(x_test, y_test)
 print(acc)
+
+print('Coefficient: \n', linear.coef_)
+print('Intercept: \n', linear.intercept_)
+
+predictions = linear.predict(x_test)
+
+for x in range(len(predictions)):
+    print(predictions[x], x_test[x], y_test[x])
