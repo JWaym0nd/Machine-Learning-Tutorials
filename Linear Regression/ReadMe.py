@@ -1,6 +1,6 @@
 #     In this Directory, the linear regression algorithm is employed to predict which labels would have the most
 # influence on a player's Hours Spent Per Week on a videogame.  The dataset is a csv containing data from the
-# Skillcraft 2 installment.  Further, the csv was obtained from the UC Irvine repo, and it turns out that age didn't
+# Starcraft 2 installment.  Further, the csv was obtained from the UC Irvine repo, and it turns out that age didn't
 # have as much influence on HPW as I hypothesized.
 #     For configuration, one first needs to install Anaconda: this distribution will contain not only Python, but
 # all the libraries relevant to machine learning.  Other components that will need to be installed at some point are:
